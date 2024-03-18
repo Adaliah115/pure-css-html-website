@@ -1,0 +1,198 @@
+/* hero.jpg=440x440px container width= 960px
+colors: main;#087f5b 
+hover; #099268
+bq;#c3fae8;
+font=#343a40 INTER*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "INTER", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.main {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  gap: 5rem;
+}
+
+.main-box {
+  align-self: center;
+}
+
+.mainheader {
+  font-size: 2.48rem;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+}
+
+.main-text {
+  line-height: 1.72rem;
+  margin-bottom: 3rem;
+}
+
+.main-btn {
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: #087f5b;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #099268;
+  cursor: pointer;
+}
+
+article {
+  margin-bottom: 5rem;
+}
+
+.article-heading {
+  margin-bottom: 3rem;
+  font-size: 2.074rem;
+}
+
+.card > strong {
+  font-size: 1.2rem;
+}
+
+.cards-text {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 10rem;
+  background-color: #087f5b;
+  border-radius: 1.2rem;
+}
+
+.section-img {
+  padding: 1rem 1rem;
+}
+
+.section-box {
+  grid-column: 2 / -1;
+}
+
+.section-heading {
+  color: white;
+  font-size: 1.44rem;
+  margin-bottom: 1rem;
+}
+
+.section-bq {
+  color: #c3fae8;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.section-text {
+  color: #c3fae8;
+  font-size: 1rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.product-header {
+  font-size: 1.44rem;
+  margin-bottom: 1rem;
+}
+
+.product {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 1.2rem;
+}
+
+.product-box {
+  padding: 2.5rem;
+}
+
+.product-list > li {
+  line-height: 3rem;
+  list-style: none;
+}
+
+.product-list {
+  margin-bottom: 2rem;
+}
+
+.price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 1.2rem;
+}
+
+.product-btn {
+  text-transform: uppercase;
+  background-color: #087f5b;
+  font-size: 0.83rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.product-img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.products-header {
+  margin-bottom: 3rem;
+}
+
+.icons {
+  stroke: #087f5b;
+  margin-bottom: 3rem;
+}
+
+/* salih aydin */
